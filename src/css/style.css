@@ -44,16 +44,16 @@ ul {
   /* Home page */
 
   .image_text {
-      display: grid;
-      flex-wrap: wrap;
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   }
 
-  .frog_flex {
+  .image_flex {
       height: 60vh;
   }
 
-  .frog {
+  .image {
     max-height: 90%;
     min-width: 90%;
     object-fit: cover;
@@ -61,14 +61,13 @@ ul {
     border-radius: 20px;
   }
 
-  .frog_text {
+  .text {
     font-size: 2.5rem;
     align-content: center;
     text-align: center;
+    display: grid;
+    flex-wrap: wrap;
   }
-
-  /* About page */
-
 
   /* Experience page */
 
@@ -108,8 +107,6 @@ ul {
 
   /* Contact */
 
-
-
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -145,7 +142,7 @@ ul {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
 }
@@ -175,6 +172,20 @@ ul {
   color: white;
 }
 
+/* LinkedIn */
+.fa-github {
+  background: black;
+  color: white;
+}
+
+/* Socials */
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+}
 
 /* Style buttons */
 .btn {
@@ -182,8 +193,8 @@ ul {
   border: none;
   color: white;
   padding: 12px 30px;
-  cursor: pointer;
   font-size: 20px;
+  align-content: center;
 }
 
 /* Darker background on mouse-over */
@@ -192,7 +203,14 @@ ul {
 }
 
 
+/* download resume */
 
+.download {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 50%;
+}
 
 
 
