@@ -4,27 +4,27 @@ Implement no less than four HTML documents which link together and share a commo
 
 >>> Home page
 
-- Your name
+- Rajesh Ranjith Portfolio
 
->>> Experience(Projects) page]
+>>> Experience(Projects) page
 
-- Your work and/or study history and a link to a PDF of your resume (resume can be a mock up)
-- Button that lets you download resume
+-  Work and/or study history and a link to a PDF of my resume (resume is a mock up)
+- Button that lets me download resume
 
 >>> Blog page
 
-- A blog with FIVE sample posts (placeholder text can be used), blog posts need to have at least ONE image each	
-- A list of blog posts with titles and date published
+- A blog with FIVE sample posts as I dont have a blog post yet (placeholder text to be used), blog posts will have at least ONE image each	
+- A list of blog posts with titles and date published ( place holder text and date )
 
 >>> About page
 
-- Content about you to demonstrate your personality, skills and/or interests
+- Content about me to demonstrate personality(recreational motorbiker, skills learnt coding at coderA / interests creating business solutions using coding and bigdata 
 
 >>> Contact page
 
-- Your name and contact details
+- name and contact details
 - Links to professional accounts such as Github and LinkedIn
-- tutorials on youtube
+- tutorials on youtube , will do at a later stage
 
 
 >>> Have an idea of 4 components with text
@@ -36,7 +36,7 @@ Implement no less than four HTML documents which link together and share a commo
 
 >>> Have an idea of 4 components with images
 
-1. About page image of yourself
+1. About page image of myself
 2. Blog component 
 3. Home page image
 4. Experience page image
@@ -44,10 +44,10 @@ Implement no less than four HTML documents which link together and share a commo
 >>> Flexbox and CSS grid
 All components should:
 - use valid HTML5 elements
-- use semantic HTML elements and attributes to add meaning and accessibility	14
+- use semantic HTML elements and attributes to add meaning and      accessibility	
 
 >>> Utilise source control to track the development of the project. Include a file named "gitlog.txt" in the submission. To generate this file use the command:
 git log > gitlog.txt
-Deploy the application to an online platform to make it publicly accessible
+Deploy the application to an online platform to make it publicly accessible     <done>
 
->>>	Implement Subresource Integrity (SRI) to enable browsers to verify that resources they fetch are delivered without unexpected manipulation
+>>>	Implement Subresource Integrity (SRI) to enable browsers to verify that resources they fetch are delivered without unexpected manipulation  <done> 
